@@ -11,9 +11,6 @@ parser.add_argument("--doseweighted", action="store_true", default=False,
                     help="Whether to append '_doseweighted' to filenames")
 args = parser.parse_args()
 
-#CRYOLO_GLOB = "/home/cryosparcuser/Shikang/20220303/cryolo_particles_thresh0d1/STAR/*.star"
-#OUTPUT_FILE = "/home/cryosparcuser/Shikang/20220303/cryolo_particles_thresh0d1.star"
-
 complete_file = ["\n",
                  "data_\n",
                  "\n",
